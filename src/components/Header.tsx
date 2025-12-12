@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -18,9 +19,9 @@ export default function Header() {
           <div className="logo">Drunk City</div>
 
           <nav className="nav">
-            <a>Home</a>
-            <a>Shop</a>
-            <a>About</a>
+            <Link to="/">Home</Link>
+            <Link to="/shop">Shop</Link>
+            <Link to="/about">About</Link>
           </nav>
         </div>
 
