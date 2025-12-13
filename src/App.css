@@ -292,6 +292,16 @@ h1 {
   background: #333;
 }
 
+.carousel-item {
+  height: 280px;
+}
+
+.carousel-item img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center 70%;
+}
 
 @keyframes fadeIn {
   from{
