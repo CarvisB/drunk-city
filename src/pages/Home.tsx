@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import { alchoholData, type Alchohol } from '../data/alcohol';
+import { alchoholData } from '../data/alcohol';
 
 
 
