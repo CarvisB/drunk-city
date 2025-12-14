@@ -23,8 +23,8 @@ export default function Header() {
 
           <nav className="nav">
             <Link to="/">Home</Link>
-            <Link to="/shop">Shop</Link>
-            <Link to="/about">About</Link>
+            <Link to="/drunk-city/shop">Shop</Link>
+            <Link to="/drunk-city/about">About</Link>
           </nav>
         </div>
 
