@@ -16,7 +16,10 @@ export default function Header() {
 
         {/* TOP ROW */}
         <div className="top-row">
-          <div className="logo">First Pour</div>
+
+          <Link to="/" className="logo">
+            First Pour
+          </Link>
 
           <nav className="nav">
             <Link to="/">Home</Link>
